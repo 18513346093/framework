@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '8.0'            # 项目支持平台及版本
   spec.requires_arc = true                   #是否使用ARC，如果指定具体文件，则具体的问题使用ARC
   
-  spec.vendored_frameworks = 'frameWork/firstFrameWork.frameWork' # 放入封装好的.framework地址
-  spec.resources     = 'frameWork/firstBundel.bundle' # .bundle资源文件
+  spec.vendored_frameworks = 'firstFrameWork.frameWork' # 放入封装好的.framework地址
+  spec.resources     = 'firstBundel.bundle' # .bundle资源文件
 
 #spec.public_header_files = 'frameworkSDK/Classes/**/*.h'   # 公开头文件地址 
  
